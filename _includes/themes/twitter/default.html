@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
@@ -37,35 +38,29 @@
   <body class="background">
     <div class="navbar">
       <div class="navbar-inner">
-        <div class="container-narrow">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
-
-        </div>
       </div>
     </div>
 
-
-
-      <div class="content-border">
-        <ul class="nav">
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
-        </ul>
-        <div class="content">
-          {{ content }}
-        </div>
+    <div class="content-border">
+      <ul class="nav">
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include JB/pages_list %}
+      </ul>
+      <div class="content content-top">
+        {{ content }}
       </div>
-      <hr>
+
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        <p class="footer-note">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
       </footer>
-
     </div>
 
     {% include JB/analytics %}
-  </body>
+    </body>
+  </div>
 </html>

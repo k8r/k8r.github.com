@@ -1,6 +1,6 @@
 /* Custom container */
 .background {
-  background: url(/assets/images/background_tile.jpeg) repeat;
+  background: url(/assets/images/background_tile.jpg) repeat;
 }
 
 .container-narrow {
@@ -14,12 +14,15 @@
 
 .content {
   background-color: #eee;
+  margin-top: -16px;
+  padding:  20px;
+
 }
 
 .content-border {
   background: #7b828a;
   margin-top: -25px;
-  padding: 10px 10px 10px 10px;
+  padding: 4px 10px 2px 10px;
 }
 
 .content-border .nav {
@@ -27,6 +30,7 @@
   font-weight: bold;
   list-style: none;
   text-align: right;
+  padding-right: 10px;
 }
 
 .content-border .nav a {
@@ -40,6 +44,61 @@
 .content-border .nav li {
   display: inline-block;
   text-shadow: 0 1px 0 #424b54;
+  padding-left: 10px;
+}
+
+.content h1 {
+  font-size: 25px;
+  color: #883824;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.content h1 small {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.content li {
+  list-style: none;
+}
+
+.content-top {
+  border-top: 1px solid #fff;
+}
+
+.content ul {
+  padding: 0;
+  margin: 0 10px 0px 10px;
+}
+
+.excerpt {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.excerpt-link {
+  margin-left: 20px;
+}
+
+footer a {
+  color: #e1e1e1;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.footer-note {
+  color: #222222;
+  margin-top: 10px;
+}
+
+hr {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #ccc;
+  display: block;
+  margin: 20px 0;
 }
 
 .navbar {
@@ -47,12 +106,12 @@
 }
 
 .navbar .brand {
-  font-size: 24px;
-  font-size: 2.4rem;
-  letter-spacing: -1px;
-  text-shadow: 0 1px 0 #424b54;
+  font-size: 53px;
+  letter-spacing: 3px;
+  text-shadow: 0 3px 0 #424b54;
   color: #fff;
-  margin-top: 8px;
+  margin-top: 14px;
+  font-family: 'Tangerine', serif;
 }
 
 .navbar-inner {
@@ -64,10 +123,16 @@
   float: right;
 }
 
+.page-header h1 {
+  margin-top: -25px;
+  margin-bottom: -30px;
+}
+
 /* posts index */
 .post > h3.title {
   position: relative;
   padding-top: 10px;
+
 }
 
 .post > h3.title span.date {
