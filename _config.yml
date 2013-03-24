@@ -13,7 +13,7 @@ title : Kira Incubator
 tagline: Site Tagline
 author :
   name : Kate Phillips
-  email : kate@movabletech.com
+  email : "kate@movabletech.com"
   github : k8r
   twitter : username
   feedburner : feedname
