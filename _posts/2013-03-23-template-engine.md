@@ -1,11 +1,9 @@
 ---
 layout: post
+tagline: {{ page.date | date_to_string }}
 tags: [Android, Java, HTML]
 ---
 {% include JB/setup %}
-
-<h1>{{ page.title }}<small>{{ page.date | date_to_string }}</small></h1>
-
 When pregnant, food cravings take on a whole new meaning.  If I trusted those cravings, I would have peanut butter for
 breakfast, lunch, and dinner (with an occasional helping of chocolate ganache cake).  I'm a little ahead of schedule on
 the amount of weight I'm supposed to gain, so I'm regaining control by writing an Android app to solve the problem.  It
