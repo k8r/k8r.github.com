@@ -19,7 +19,7 @@ to generate HTML content from a standard (non-web) application.
 
 I chose a template engine called [MiniTemplator](http://www.source-code.biz/MiniTemplator/),
 which worked beautifully on Android.  The documentation and examples were great: after adding a template HTML file, you set the variables, add the "blocks"
-(more on those in a moment), and call a function to generate output in your Java code.  At first glance, the syntax is
+(see example below), and call a function to generate output in your Java code.  At first glance, the syntax is
 similar to syntax you might see in a .jsp.  One difference I noticed is that .jsps allow you to insert actual Java
 code for loops in the template; while MiniTemplator has you place them in your Java source code.
 
@@ -41,7 +41,7 @@ ${currentDay} / Total Calories: ${totalCalories}
 {% endhighlight %}
 
 Piece of cake - thank you [source-code.biz](http://www.source-code.biz).  My app is still a work in progress, but it's been helping during the last two weeks.
-I still feel like an elephant, but a more comfortable, properly-fed elephant.
+I still feel like a hippo, but a more comfortable, properly-fed hippo.
 
 
 
