@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Template Engine"
-tagline: {{ post.date | date_to_string }}
 tags: [Android, Java, HTML]
 ---
 {% include JB/setup %}
+
+<h1>{{ post.title }}<small>{{ post.date | date_to_string }}</small>
 
 When pregnant, food cravings take on a whole new meaning.  If I trusted those cravings, I would have peanut butter for
 breakfast, lunch, and dinner (with an occasional helping of chocolate ganache cake).  I'm a little ahead of schedule on
