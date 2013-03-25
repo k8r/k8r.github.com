@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Template Engine"
-description: ""
-category: 
-tags: []
+tagline: {{ post.date | date_to_string }}
+tags: [Android, Java, HTML]
 ---
 {% include JB/setup %}
 
