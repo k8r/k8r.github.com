@@ -1,7 +1,5 @@
 ---
 layout: post
-title: Template Engine
-tagline: {{ page.date | date_to_string }}
 tags: [Android, Java, HTML]
 ---
 {% include JB/setup %}
